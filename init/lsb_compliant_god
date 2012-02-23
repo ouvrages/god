@@ -1,4 +1,13 @@
 #!/usr/bin/env ruby
+### BEGIN INIT INFO
+# Provides:          god  
+# Required-Start:    $network
+# Required-Stop:
+# Default-Start:     2 3 4 5
+# Default-Stop:      0 1 6
+# Short-Description: god daemon
+# Description:       god daemon, Ruby process monitor
+### END INIT INFO
 
 # see http://refspecs.freestandards.org/LSB_3.1.0/LSB-Core-generic/LSB-Core-generic/iniscrptact.html
 
